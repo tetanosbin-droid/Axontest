@@ -1,6 +1,19 @@
+# Android/Gradle generated output and machine-local SDK config
 .gradle/
 **/build/
 local.properties
 .idea/
 *.iml
 .DS_Store
+
+# SDK/JDK downloads and local toolchains
+.android/
+.kotlin/
+
+# Node tooling and Wrangler's local R2/dev state
+node_modules/
+.wrangler/
+
+# Local preview logs/PIDs
+.axon-*.log
+.axon-*.pid
