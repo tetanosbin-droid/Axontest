@@ -1,0 +1,17 @@
+{
+  "name": "axon-downloads-local",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-13",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "none"
+  },
+  "r2_buckets": [
+    {
+      "binding": "FILES",
+      "bucket_name": "axon-downloads-local",
+      "preview_bucket_name": "axon-downloads-local"
+    }
+  ]
+}
